@@ -1,8 +1,6 @@
 import "../css/weather-today.css";
 
 const WeatherToday = ({ data }) => {
-  const sun_set = new Date(toString(data.sun_set));
-  console.log(sun_set);
   return (
     <section id="weather-today">
       <h2>City: {data.title}</h2>

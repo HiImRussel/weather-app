@@ -1,0 +1,15 @@
+.day img {
+  height: 10vh;
+}
+
+.day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.day span {
+  color: white;
+}
