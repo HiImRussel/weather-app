@@ -1,0 +1,47 @@
+h2,
+p,
+h3 {
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 2em;
+}
+
+#weather-today {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+}
+
+img {
+  margin-top: 10px;
+  height: 15vh;
+}
+
+.temp-main {
+  max-width: 20vw;
+  display: inline-block;
+}
+
+.temp-main:nth-child(1) {
+  border-right: 2px solid white;
+}
+
+.temp-main span {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+#main-weather-data {
+  display: flex;
+  justify-content: center;
+}
+
+#main-weather-data span {
+  color: white;
+  margin: 10px 20px;
+}
